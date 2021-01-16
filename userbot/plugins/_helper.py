@@ -5,7 +5,7 @@ from platform import uname
 import sys
 from telethon import events, functions, __version__
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Dark_cobra_support_group"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Black_snack_support"
 
 #@command(pattern="^.help ?(.*)")
 @borg.on(admin_cmd(pattern=r"help ?(.*)", outgoing=True))
@@ -85,7 +85,7 @@ async def _(event):
 
     if plugin_name in CMD_LIST:
         help_string = CMD_LIST[plugin_name].__doc__
-        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           © Dark Cobra"
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           © Black snake"
         
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
