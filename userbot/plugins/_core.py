@@ -9,8 +9,8 @@ from userbot.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
 from userbot.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
-thumb_image_path = "./Resources/IMG_20201005_150245_168.jpg"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DarkCobra"
+thumb_image_path = "./Resources/IMG_20210115_102548.png"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Black snake"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -92,7 +92,7 @@ async def unload(event):
         qwe = await eor(event, f"DarkCobra Has Successfully unloaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            "Darkcobra has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
+            "Blacksnake has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
         )
 
 
@@ -111,5 +111,5 @@ async def load(event):
         qwe = await eor(event, f"Successfully loaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            f"DarkCobra could not load {shortname} because of the following error.\n{str(e)}"
+            f"Blacksnake could not load {shortname} because of the following error.\n{str(e)}"
         )
