@@ -2,7 +2,7 @@ print(
     "ㅤ\nㅤ\n\n\n\nㅤ\n┈┈┏━╮╭━┓┈╭━━━━━━╮\n┈┈┃┏┗┛┓┃╭┫ⓞⓘⓝⓚ ┃\n┈┈╰┓▋▋┏╯╯╰━━━━━━╯\n┈╭━┻╮╲┗━━━━╮╭╮┈\n┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n┈╰━┳┻▅╯╲╲╲╲┃┈┈┈\n┈┈┈╰━┳┓┏┳┓┏╯┈┈┈\n┈┈┈┈┈┗┻┛┗┻┛┈┈"
 )
 print("\n\n\n\n\nHello sir!!, I'm Here To Help u to Generate Telethon String Session")
-print("\n\nDarkCobra UserBot")
+print("\n\nBlacksnake UserBot")
 
 print("\n\nProperly Fill APP_ID ,HASH and Number.\n")
 
