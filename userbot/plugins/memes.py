@@ -6,7 +6,7 @@
 #
 
 """ Userbot module for having some fun with people. """
-
+#legend x
 import asyncio
 import random
 import re
