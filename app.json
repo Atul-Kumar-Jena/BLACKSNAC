@@ -29,7 +29,7 @@
     },
 
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
+      "description": "Fill your Full name or Username like @Royal_king7 .",
       "value": "",
       "required": true
     },
@@ -45,7 +45,7 @@
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "https://telegra.ph/file/07d80d348233e32ace99e.mp4",
       "required": true
     },
     "DEFAULT_BIO": {
