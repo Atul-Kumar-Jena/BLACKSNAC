@@ -87,7 +87,7 @@ def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
 
-    
+    #op or Legend X
 CMD_HELP.update(
     {
         "telegraph": ".t(m/t)"
