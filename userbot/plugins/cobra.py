@@ -1,6 +1,6 @@
 # Black Snake Original 🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍
 # kangers Keep Credits 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
-# Made by Dc-Team
+# Made by BS -Team
 # Don't remove these lines u fool ,,, 
 #
 #
@@ -73,7 +73,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.edit(buttons=dc)
         else:
             Cobra = "Please get your own Userbot, and don't use mine for more info visit @BLACKSNAK6_support!"
-            await event.answer(Cobra, cache_time=0, alert=True)
+            await event.answer(Snake, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
         data=re.compile(b"helpme_prev\((.+?)\)")
@@ -91,7 +91,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             
             await event.edit(buttons=dc)
         else:
-              TheDark = "Please get your own Userbot😁😁,for more info visit @BLACKSNAK6_support! 😎😎"
+              TheBlack = "Please get your own Userbot😁😁,for more info visit @BLACKSNAK6_support! 😎😎"
               await event.answer(TheDark, cache_time=0, alert=True)
  #hehehehehhehhehhehe   
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
